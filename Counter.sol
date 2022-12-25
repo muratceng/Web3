@@ -11,11 +11,11 @@ contract Counter {
         return count;
     }
     //increment to count by 1
-    function inc() external{
+    function increment() external{
         count += 1;
     }
     //decrement to count by 1 if count 0, function fail
-    function dec() external{
+    function decrement() external{
         count -= 1;
     }
 }
